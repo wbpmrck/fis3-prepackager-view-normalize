@@ -1,0 +1,27 @@
+{
+  "name": "fis3-prepackager-view-normalize",
+  "version": "1.0.2",
+  "description": "分析view页面使用的资源和脚本，根据依赖顺序进行脚本注入，并设置srcMap方便异步脚本的加载 Edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kaicui",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbpmrck/fis3-prepackager-view-normalize.git"
+  },
+  "keywords": [
+    "fis3",
+    "build",
+    "package"
+  ],
+  "bugs": {
+    "url": "https://github.com/wbpmrck/fis3-prepackager-view-normalize/issues"
+  },
+  "homepage": "https://github.com/wbpmrck/fis3-prepackager-view-normalize#readme"
+}
