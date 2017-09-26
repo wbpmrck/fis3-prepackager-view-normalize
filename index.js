@@ -306,7 +306,7 @@ module.exports = function (ret, conf, settings, opt) {
                 console.log('normalize:file:'+file.subpath);
 
                 var content = file.getContent();
-                var $ = cheerio.load(content);
+                var $ = cheerio.load(content,{decodeEntities: false});
                     //viewSrcMap={};
 
                 /*
